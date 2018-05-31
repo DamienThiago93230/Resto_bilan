@@ -9,15 +9,22 @@ body {
 }
 
 header {
-    background: yellow;
-    width: 100%;
+    width: 40%;
     height: 10%;
     border: none;
+    margin-left: 30%;
+    text-align: center;
 }
+
+header ul li {
+    display: inline;
+    text-align: center;
+}
+
 
 #conteneur {
     /* background: #ecedef; */
-    height: 2600px;
+    height: 1000px;
     border: none;
 }
 
@@ -33,11 +40,39 @@ header {
     clear: both;
 }
 footer {
-    background: pink;
+    width: 40%;
+    height: 10%;
+    border: none;
+    margin-left: 30%;
+    text-align: center;
+    
 }
 .texte {
     display: inline;
+    
 }
+
+.plate {
+    text-align: right;
+    float: right;
+    margin-top: 7%;
+    margin-right: 19%;
+}
+
+.h3 {
+    border-bottom: 2px solid #3333;
+}
+.h4 {
+    text-decoration: uderline;
+}
+
+.place {
+    float: right;
+    width: 45%;
+    margin-top: 4%;  
+}
+
+
 
 
 
