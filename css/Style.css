@@ -4,8 +4,6 @@ body {
     background: white/* #ecedef */;
     margin: 0 auto;
     width: 1024px;
-    border: none;
-    
 }
 
 header {
@@ -21,60 +19,89 @@ header ul li {
     text-align: center;
 }
 
-
 #conteneur {
-    /* background: #ecedef; */
     height: 1000px;
     border: none;
 }
 
-.droite {
+.droite {/* permet le positionnement du contenu a droite dans la section */
     float: right;
 }
 
-.gauche {
+.gauche {/* permet le positionnement du contenu a gauche dans la section */
     float: left;
 }
 
-#clear {
+#clear {/* permet de passer a la prochaine section */
     clear: both;
 }
-footer {
-    width: 40%;
-    height: 10%;
-    border: none;
-    margin-left: 30%;
-    text-align: center;
-    
-}
-.texte {
+
+.texte {/* permet de mettre le texte dans la meme section que la photo */
     display: inline;
-    
 }
 
-.plate {
+.plate {/* positionnement du texte prés de la 1er asssiette */
     text-align: right;
     float: right;
     margin-top: 7%;
     margin-right: 19%;
 }
 
-.h3 {
-    border-bottom: 2px solid #3333;
-}
-.h4 {
-    text-decoration: uderline;
-}
-
-.place {
+.place {/* permet de mettre le texte avec l'mage dans la meme section */
     float: right;
     width: 45%;
     margin-top: 4%;  
 }
 
+.souligne {/* permet de souligné les h3 */
+    height: 47px;
+    width: 408px;
+}
+ 
+souligne1 {/* permet de souligné les h4 */
+    height: 47px;
+    width: 408px;
+}
+/* permet de voir la note aprés chaque texte */
+.p1 {
+    color: white;
+    background: black;
+    width: 28%;
+}
 
+.ul {
+    width: 90%;
+}
 
+.ul2 { /* permet de possitionné (CITY GUIDE PARIS) au desuu du h1 */
+    width: 100%;
+}
 
+section {/* séparation entre chaque section */
+    margin-top: -5px;
+}
 
+footer {
+    width: 40%;
+    height: 20%;
+    border: none;
+    margin-left: 30%;
+    text-align: center;
+    margin-top: 63px;
+}  
 
+.footer1 {/* pour mettre l'image dans le footer */
+    background: url('../img/plan.png') no-repeat center;
+    height: 73%;
+}
 
+.footer2 {/* pour placé le texte dans le footer */
+    margin-left: 0%;
+    text-align: center;
+}
+
+.footer1 p {/* permet de placé le texte(City Guide) dans l'image */
+    padding-top: 14%;
+    padding-left: 0%;
+    margin-top: -12%;
+}
