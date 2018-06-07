@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+/* style page restaurant septime city guide Santo 
+damien.santo@lepoles.com */
+
+body {
+    background: lightgrey;
+    margin: 0 auto;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.1em;
+}
+
+/* style pour le wrapper */
+#wrapper {
+    background: white;
+    margin: 0 auto;
+    width: 1000px;
+    height: 3200px;
+}
+
+/* en tete centré */
+header {
+    margin: 0 auto;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+header h1 {
+    color: rgb(250, 169, 69);
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 0.2em; 
+}
+
+header h2, footer h2{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.4em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* pied de page */
+footer {
+    background-image: url('../img/plan2.png');
+    background-repeat: no-repeat ;
+    background-position: top;
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+
+footer h4 {
+    font-size: 1.3em;
+    padding-top: 50px;
+    margin-bottom: 20px;
+    height: 80px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+}
+
+section {
+    min-height: 500px;
+    max-height: 500px;
+}
+
+/* les classes pour faire flotter les contenues */
+.agauche {
+    float: left;
+    width: 500px;
+    height: 500px;
+}
+
+.adroite {
+    float: right;
+    width: 500px;
+    height: 500px;  
+}
+
+.clear {
+    clear: both;
+}
+
+/* la navigation haute */
+nav {
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* le texte et les paragraphe */
+.lanote {
+    background: #000;
+    color: #fff;
+    width: 160px;
+    margin-left: 10px;
+    font-weight: 400;
+    padding: 2px;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+}
+
+
+
+
+/* couleur provisoire */
+.orange {
+    background: orangered;
+}
+
+.vert {
+    background: lightgreen;
+}
+
+.bleu {
+    background: lightblue;
+}
